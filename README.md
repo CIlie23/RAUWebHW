@@ -1,0 +1,2 @@
+# SiteThing
+send help
