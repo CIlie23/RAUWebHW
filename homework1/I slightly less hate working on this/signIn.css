@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+    background-image: url('assets/New_map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+  }
+  .wholeDoc {
+    width: 100%;
+    height: 1024px;
+    width: 1440px;
+  }
+  .signUpSection {
+   width: 489px;
+    height: 636px;
+    position: absolute;
+    top: 194px;
+    left: 436px;
+    background: rgba(255,255,255,1);
+  }
+  .v24_129 {
+    width: 141px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 102px;
+    left: 174px;
+    font-family: Inter;
+    font-weight: Bold;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+    font-family: Inter;
+    font-weight: bold;
+    text-shadow: 1px 0px 0px black;
+
+  }
+  .v24_130 {
+    width: 60px;
+    color: rgba(193,193,193,1);
+    position: absolute;
+    top: 569px;
+    left: 213px;
+    font-family: Khand;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v24_131 {
+    width: 72px;
+    color: rgba(193,193,193,1);
+    position: absolute;
+    top: 589px;
+    left: 209px;
+    font-family: Khand;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+  .passwordField {
+    width: 389px;
+    height: 46px;
+    background: rgba(240,240,240,1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    top: 484px;
+    left: 484px;
+    border-color: rgb(240,240,240);
+    border-style: hidden;
+    font-family: Khand;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+ /* .v24_134 {
+    width: 47px;
+    color: rgba(193,193,193,1);
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-family: Khand;
+    font-weight: Bold;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+  }*/
+  .passwordFieldTwo {
+    width: 389px;
+    height: 46px;
+    position: absolute;
+    background: rgba(240,240,240,1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: rgb(240,240,240);
+    top: 424px;
+    left: 484px;
+    border-style: hidden;
+    font-family: Khand;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  /*.v24_147 {
+    width: 47px;
+    color: rgba(193,193,193,1);
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-family: Khand;
+    font-weight: Bold;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+  }*/
+  .userField {
+    width: 389px;
+    height: 46px;
+    top: 364px;
+    left: 484px;
+    position: absolute;
+    background: rgb(240,240,240);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-style: hidden;
+    font-family: Khand;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .v24_137 {
+    width: 48px;
+    color: rgba(193,193,193,1);
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-family: Khand;
+    font-weight: Bold;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+
+  }
+  .staySigned {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    top: 498px;
+    left: 484px;
+    overflow: hidden;
+  }
+  .checkBox {
+    width: 14px;
+    height: 14px;
+    background: rgba(240,240,240,1);
+    position: relative;
+    overflow: hidden;
+
+  }
+  .v24_140 {
+    width: 74px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 19px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+  }
+  .funnyArrow {
+    width: 84px;
+    height: 84px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 635px;
+    left: 638px;
+    overflow: hidden;
+    background-image:url("assets/coolarrow.png");
+  }
+ /* .v24_142 {
+    width: 84px;
+    height: 84px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v24_143 {
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+  }
+  .v24_144 {
+    width: 30px;
+    height: 28px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 28px;
+    left: 27px;
+  }*/
+
+#arrowIcon{
+    left:0px;
+    top:0px;
+    height: 84px;
+    width: 84px;
+  }
+  
