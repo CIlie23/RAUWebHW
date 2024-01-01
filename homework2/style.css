@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Fixedsys';
+    src: url(Fixedsys.ttf);
+}
+
+#body{
+	font-family: 'Fixedsys';
+}
+.image{
+    position:fixed;
+    bottom:0px;
+    left:50%;
+}
+
+#justText{
+    font-family: 'Fixedsys';
+}

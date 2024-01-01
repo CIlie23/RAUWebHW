@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="signUpPage.css" rel="stylesheet">
+        <title>Sign Up</title>
+    </head>
+
+    <body>
+        <div class ="wholeDoc">
+            
+            <div class ="pageLogo">
+                <img class ="pageLogo" src="logo.png" alt="logo">
+            </div>
+
+            <div id="error-container">
+                <div id="emailError" class="error-message"></div>
+                <div id="passwordError" class="error-message"></div>
+                <div id="confirmPasswordError" class="error-message"></div>
+            </div>
+
+            <div class="registrationContainer">
+                <div class="tabs">
+                    <div class="tab active" onclick="showForm('login-form', this)">Login</div>
+                    <div class="tab" onclick="showForm('register-form', this)">Register</div>
+                </div>
+                
+                
+                <form id="login-form">
+                    <label for="email">E-mail:</label>
+                    <input class="boxSize" type="email" id="loginEmail" required>
+                   
+
+                    <label for="email">Password:</label>
+                    <input class="boxSize" type="password" id ="loginPassword" required>
+                    
+
+                    <!--<label for="email">Repeat Password:</label>
+                    <input class="boxSize" type="password" id="confirmPassword" required>
+                    <div id="confirmPasswordError" class="error-message"></div>-->
+                    
+                    <div>
+                        <button type="submit" class="leButton" onclick="validateFormLogin()">Login</button>
+                    </div>
+
+                    <div> 
+                        <p class="logInProblems">Login problems? Click <a href="https://www.w3schools.com/">here</a>!</p>
+                    </div> 
+                </form>
+            
+                <form id="register-form" >
+                   <label for="inputUser">Username:</label>
+                    <input id="inputUser" class="boxSize" type="text" id="stein-login-screen-register-name" required>
+                    
+                    <label for="inputUser">Email:</label>
+                    <input class="boxSize" type="email" id="registerEmail" required>
+                  
+
+                    <label for="email">Password:</label>
+                    <input class="boxSize" type="password" id="registerPassword" required>
+          
+
+                    <label for="email">Repeat Password:</label>
+                    <input class="boxSize" type="password" id="confirmPassword" required>
+    
+
+                    <div>
+                        <label for="TOS"><a href="https://www.w3schools.com/">Terms of Service</a></label>
+                        <input type="checkbox" id="TOS" required>
+                        <label for="TOS">Accept?</label>
+                    </div>
+  
+                    <div>
+                        <button type="submit" class="leButton" onclick="validateFormRegister()">Register</button>
+                    </div>
+                </form>
+            </div>
+            
+           
+            <script src="signUpPage.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'osd';
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+#slider-container {
+    position: relative;
+    width: 600px;
+    height: 400px; /* Setăm o înălțime fixă pentru slide-uri, puteți ajusta după nevoie */
+    overflow: hidden;
+    margin: 0 auto; /* Centrăm containerul slider-ului */
+    margin-top: 100px;
+}
+
+#image-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%; /* Utilizăm înălțimea 100% pentru a se potrivi cu înălțimea containerului */
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center; /* Centrăm imaginea pe orizontală */
+    align-items: center; /* Centrăm imaginea pe verticală */
+}
+
+.slide img {
+    max-width: 100%; /* Asigurăm că imaginea nu depășește lățimea slide-ului */
+    max-height: 100%; /* Asigurăm că imaginea nu depășește înălțimea slide-ului */
+}
+
+#butoane{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /*possible order is top > left > bottom > right?*/
+    padding: 10px 600px 10px 600px; 
+}
+#prevBtn, #nextBtn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.justText{
+    font-family: 'osd';
+}
+

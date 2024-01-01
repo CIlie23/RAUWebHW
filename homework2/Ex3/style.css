@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Fixedsys';
+    src: url(Fixedsys.ttf);
+}
+
+#wholePage{
+    text-align: center;
+    font-family: Fixedsys;
+    
+}
+
+#taskList{
+    margin-top: 20px;
+}
+
+li{
+    padding: 5px;
+    list-style-type: none;
+}
