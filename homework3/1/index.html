@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="logo.ico" alt="logo">
+  <title>Memory Audio Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nivelThing">
+    <h2>Nivel:</h2>
+    <label for="h2" id="nivelCounter" class="coolLabel"></label>
+ 
+    <h3>Record:</h3>
+    <label class="coolLabel" >0</label>
+  </div>
+
+  <div id="wholePage">
+    <h1>Joc de memorie audio</h1>
+    <p>Fiecare card are un sunet specific.</p>
+    <p>In fiecare runda un sunet o sa se auda</p>
+    <p>Da click pe cardul corect!</p>
+    <p>Apasa NEXT pentru urmatorul nivel!</p>
+    
+    <button id="cardOne" onclick="playSoundOne()"class="buttonDesign">♠</button>
+    <button id="cardTwo" onclick="playSoundTwo()" class="buttonDesign">♣</button>
+    <button id="cardTree"onclick="playSoundThree()" class="buttonDesign">♦</button>    
+    
+  </div>
+
+  <div class="initiateGame">
+    <button id="startButton" onclick="startGame()">START</button>
+    <button id="nextButton" onclick="nextPuzzle()" disabled>NEXT</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
